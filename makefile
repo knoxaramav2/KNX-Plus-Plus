@@ -22,7 +22,7 @@ subdirs:
 
 .PHONY: run
 run:
-	bin/KNX
+	bin/KNX_PP.exe
 
 .PHONY: dbg
 dbg:
