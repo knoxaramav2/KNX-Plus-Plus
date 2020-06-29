@@ -1,7 +1,6 @@
 #compiles core component
 
 EXPORT_PTH=../../bin/
-CC = g++
 VERSION = -DVERSION='"00.01"'
 CFLAGS = -std=c++14 -Wall $(COMMON)
 LFLAGS = #-lm -ldl -lpthread

@@ -1,10 +1,7 @@
 #compiles entire KNX project
 
-CC = g++
 SUBDIRS = Src/Core
-BITVRS=64
 BINPATH=$(shell pwd)/bin
-DEBUG=false
 COMMON= -std=gnu++17 -Wall -g -m$(BITVRS) 
 CLEANTEXT = o a
 
